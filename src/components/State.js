@@ -11,7 +11,7 @@ const State = () => {
   return (
     <div>
       {step === 1 && (
-        <div>
+        <div id="step1">
           <h2>Customer Details</h2>
           <label for="first_name">firstname:</label>
           <input id="first_name" placeholder="Enter first name" />
@@ -22,7 +22,7 @@ const State = () => {
         </div>
       )}
       {step === 2 && (
-        <div>
+        <div id="step2">
           <h2>Car Details</h2>
           <label for="model">model:</label>
           <input id="model" placeholder="Enter car model" />
@@ -33,7 +33,7 @@ const State = () => {
         </div>
       )}
       {step === 3 && (
-        <div>
+        <div id="step3">
           <h2>Card Details</h2>
           <label for="card_info">credit card number:</label>
           <input id="card_info" placeholder="Enter card details" />
